@@ -1,0 +1,206 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    position: fixed; /* Fixed position for the header */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure header is above other content */
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header .logo .name {
+    font-size: 28px; /* Increased font size for restaurant name */
+    font-weight: bold;
+}
+
+.header .profile {
+    width: 35px; /* Slightly larger profile icon */
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Menu styles */
+.menu {
+    margin-top: 80px; /* Adjust margin to account for the fixed header */
+    width: 100%; /* Full width of the viewport */
+    max-width: none; /* Remove any max-width constraints */
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+}
+
+.category-button {
+    padding: 12px 20px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1; /* Allow buttons to take up available space */
+    margin: 5px; /* Add spacing between buttons */
+}
+
+.category-button:hover {
+    background-color: #ddd;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-category {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block; /* Ensure visibility */
+}
+
+.menu-category h2 {
+    font-size: 24px; /* Increased font size for category headings */
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    width: 100px; /* Increased size for better visibility */
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px; /* Increased margin for spacing */
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 18px; /* Increased font size for item names */
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px; /* Increased font size for price */
+}
+
+.add-to-cart {
+    padding: 8px 15px; /* Increased padding */
+    font-size: 16px; /* Increased font size */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.cart-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart-link a {
+    padding: 12px 25px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-link a:hover {
+    background-color: #45a049;
+}
+
+/* Cart styles */
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart-total, .cart-actions {
+    margin-top: 20px;
+}
+
+.cart-actions button {
+    padding: 12px 25px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-actions button:hover {
+    background-color: #45a049;
+}

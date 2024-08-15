@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Restaurant Logo">
+            <div class="name">Quadrella Bhavan</div>
+        </div>
+        <div class="profile">P</div>
+    </div>
+    <div class="menu">
+        
+        <div class="categories">
+            <button class="category-button" data-category="all">All</button>
+            <button class="category-button" data-category="breakfast">Breakfast</button>
+            <button class="category-button" data-category="lunch">Lunch</button>
+            <button class="category-button" data-category="dinner">Dinner</button>
+            <button class="category-button" data-category="desserts">Desserts</button>
+            <button class="category-button" data-category="treats">Treats</button>
+        </div>
+        <div class="menu-items">
+            <div class="menu-category" data-category="breakfast">
+                <h2>Breakfast</h2>
+                <div class="menu-item">
+                    <img src="masala_dosa.jpg" alt="Masala Dosa">
+                    <p>Masala Dosa</p>
+                    <p class="price">Rs:80</p>
+                    <button class="add-to-cart" data-item="Masala Dosa" data-price="80">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="vada.jpg" alt="Vada">
+                    <p>Vada</p>
+                    <p class="price">Rs:40</p>
+                    <button class="add-to-cart" data-item="Vada" data-price="40">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="idly.jpg" alt="Idly">
+                    <p>Idly</p>
+                    <p class="price">Rs:30</p>
+                    <button class="add-to-cart" data-item="Idly" data-price="30">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="pongal.jpg" alt="Pongal">
+                    <p>Pongal</p>
+                    <p class="price">Rs:60</p>
+                    <button class="add-to-cart" data-item="Pongal" data-price="60">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-category" data-category="desserts">
+                <h2>Desserts</h2>
+                <div class="menu-item">
+                    <img src="vanilla.jpg" alt="Vanilla SPL">
+                    <p>Vanilla SPL</p>
+                    <p class="price">Rs:45</p>
+                    <button class="add-to-cart" data-item="Vanilla SPL" data-price="45">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="pista.jpg" alt="Pista SPL">
+                    <p>Pista SPL</p>
+                    <p class="price">Rs:55</p>
+                    <button class="add-to-cart" data-item="Pista SPL" data-price="55">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="chocolate.jpg" alt="Chocolate">
+                    <p>Chocolate</p>
+                    <p class="price">Rs:65</p>
+                    <button class="add-to-cart" data-item="Chocolate" data-price="65">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="butterscotch.jpg" alt="Butterscotch">
+                    <p>Butterscotch</p>
+                    <p class="price">Rs:55</p>
+                    <button class="add-to-cart" data-item="Butterscotch" data-price="55">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-category" data-category="lunch">
+                <h2>Lunch</h2>
+                <div class="menu-item">
+                    <img src="south_meals.jpg" alt="South Indian Meals">
+                    <p>South Indian Meals</p>
+                    <p class="price">Rs:100</p>
+                    <button class="add-to-cart" data-item="South Indian Meals" data-price="100">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="north_meals.jpg" alt="North Indian Meals">
+                    <p>North Indian Meals</p>
+                    <p class="price">Rs:130</p>
+                    <button class="add-to-cart" data-item="North Indian Meals" data-price="130">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-category" data-category="dinner">
+                <h2>Dinner</h2>
+                <div class="menu-item">
+                    <img src="parota.jpg" alt="Parota">
+                    <p>Parota</p>
+                    <p class="price">Rs:100</p>
+                    <button class="add-to-cart" data-item="Parota" data-price="100">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="butternaan.jpg" alt="Butter Naan & Panner">
+                    <p>Butter Naan & Panner</p>
+                    <p class="price">Rs:150</p>
+                    <button class="add-to-cart" data-item="Butter Naan & Panner" data-price="150">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="chole_batura.jpg" alt="Chole Batura">
+                    <p>Chole Batura</p>
+                    <p class="price">Rs:130</p>
+                    <button class="add-to-cart" data-item="Chole Batura" data-price="130">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="roti.jpg" alt="Roti & Malai Kofta">
+                    <p>Roti & Malai Kofta</p>
+                    <p class="price">Rs:200</p>
+                    <button class="add-to-cart" data-item="Roti & Malai Kofta" data-price="200">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-category" data-category="treats">
+                <h2>Treats</h2>
+                <div class="menu-item">
+                    <img src="kachori.jpg" alt="Kachori">
+                    <p>Kachori</p>
+                    <p class="price">Rs:30</p>
+                    <button class="add-to-cart" data-item="Kachori" data-price="30">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="samosa_chat.jpg" alt="Samosa Chat">
+                    <p>Samosa Chat</p>
+                    <p class="price">Rs:50</p>
+                    <button class="add-to-cart" data-item="Samosa Chat" data-price="50">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="pav_bhaji.jpg" alt="Pav Bhaji">
+                    <p>Pav Bhaji</p>
+                    <p class="price">Rs:40</p>
+                    <button class="add-to-cart" data-item="Pav Bhaji" data-price="40">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="pani_puri.jpg" alt="Pani Puri">
+                    <p>Pani Puri</p>
+                    <p class="price">Rs:40</p>
+                    <button class="add-to-cart" data-item="Pani Puri" data-price="40">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-link">
+            <a href="cart.html">View Cart</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
