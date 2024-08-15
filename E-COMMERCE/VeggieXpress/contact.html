@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <style>
+    /* Make sure the html and body cover the full viewport */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      width: 100%;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+      min-height: calc(100vh - 100px); /* Adjust based on header/footer height */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #f1f1f1; /* Or any color you have for the footer */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header" data-header>
+    <div class="nav-wrapper">
+      <div class="container">
+        <h1 class="h1">
+          <a href="./index.html" class="logo">Veggie<span class="span">Xpress</span></a>
+        </h1>
+
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li><a href="./index.html" class="navbar-link">Home</a></li>
+            <li><a href="./about.html" class="navbar-link">About</a></li>
+            <li><a href="./shop.html" class="navbar-link">Shop</a></li>
+            <li><a href="./contact.html" class="navbar-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-action">
+          <div class="search-wrapper" data-search-wrapper>
+            <button class="header-action-btn" aria-label="Toggle search" data-search-btn>
+              <ion-icon name="search-outline" class="search-icon"></ion-icon>
+              <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            </button>
+
+            <div class="input-wrapper">
+              <input type="search" name="search" placeholder="Search here" class="search-input">
+              <button class="search-submit" aria-label="Submit search">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+
+          <button class="header-action-btn" aria-label="Open wishlist" data-panel-btn="wishlist">
+            <ion-icon name="heart-outline"></ion-icon>
+            <data class="btn-badge" value="3">03</data>
+          </button>
+
+          <button class="header-action-btn" aria-label="Open shopping cart" data-panel-btn="cart">
+            <ion-icon name="basket-outline"></ion-icon>
+            <data class="btn-badge" value="2">02</data>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Whether you have a question about our products, need assistance with your order, or just want to give feedback, feel free to reach out to us.</p>
+
+      <div class="contact-info">
+        <p><strong>Address:</strong><br>#7, Sri Vaikunta Vasam, KR Puram, Bengaluru</p>
+        <p><strong>Phone:</strong><br>+91 99000 00000</p>
+        <p><strong>Email:</strong><br><a href="mailto:info@veggiexpress.com">info@veggiexpress.com</a></p>
+      </div>
+
+      <!-- Contact Form -->
+      <form action="#" method="post" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 VeggieXpress. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

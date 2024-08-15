@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeggieXpress - Premium</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css links
+  -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+
+  <!-- 
+    - Google Fonts
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - Header Section
+  -->
+  <header class="header" data-header>
+
+    <div class="top-bar">
+      <div class="container">
+        <p>Enjoy free shipping on orders over Rs:1500!</p>
+      </div>
+    </div>
+
+    <div class="nav-wrapper">
+      <div class="container">
+
+        <h1 class="h1">
+          <a href="./index.html" class="logo">Veggie<span class="span">Xpress</span></a>
+        </h1>
+
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="./shop.html" class="navbar-link">Shop</a>
+            </li>
+
+            <li>
+              <a href="./contact.html" class="navbar-link">Contact</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <div class="header-action">
+
+          <div class="search-wrapper" data-search-wrapper>
+
+            <button class="header-action-btn" aria-label="Toggle search" data-search-btn>
+              <ion-icon name="search-outline" class="search-icon"></ion-icon>
+              <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            </button>
+
+            <div class="input-wrapper">
+              <input type="search" name="search" placeholder="Search here" class="search-input">
+
+              <button class="search-submit" aria-label="Submit search">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </div>
+
+          </div>
+
+          <button class="header-action-btn" aria-label="Open wishlist" data-panel-btn="wishlist">
+            <ion-icon name="heart-outline"></ion-icon>
+
+            <data class="btn-badge" value="3">03</data>
+          </button>
+
+          <button class="header-action-btn" aria-label="Open shopping cart" data-panel-btn="cart">
+            <ion-icon name="basket-outline"></ion-icon>
+
+            <data class="btn-badge" value="2">02</data>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  
+
+
+
+
+  <!-- 
+    - #ASIDE
+  -->
+
+  <aside class="aside">
+
+    <div class="side-panel" data-side-panel="wishlist">
+
+        <button class="panel-close-btn" aria-label="Close wishlist" data-panel-btn="wishlist">
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <ul class="panel-list">
+
+            <li class="panel-item">
+                <a href="./product-details.html" class="panel-card">
+
+                    <figure class="item-banner">
+                        <img src="./assets/images/product-small-1.jpg" width="46" height="46" loading="lazy" alt="Bright Side Vegetarian">
+                    </figure>
+
+                    <div>
+                        <p class="item-title">Bright Side Vegetarian</p>
+                        <span class="item-value">₹20.15x1</span>
+                    </div>
+
+                    <button class="item-close-btn" aria-label="Remove item">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </a>
+            </li>
+
+            <li class="panel-item">
+                <a href="./product-details.html" class="panel-card">
+
+                    <figure class="item-banner">
+                        <img src="./assets/images/product-small-2.jpg" width="46" height="46" loading="lazy" alt="Eco Vegetable">
+                    </figure>
+
+                    <div>
+                        <p class="item-title">Eco Vegetable</p>
+                        <span class="item-value">₹13.25x2</span>
+                    </div>
+
+                    <button class="item-close-btn" aria-label="Remove item">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </a>
+            </li>
+
+            <li class="panel-item">
+                <a href="./product-details.html" class="panel-card">
+
+                    <figure class="item-banner">
+                        <img src="./assets/images/product-small-3.jpg" width="46" height="46" loading="lazy" alt="House of Veggies">
+                    </figure>
+
+                    <div>
+                        <p class="item-title">House of Veggies</p>
+                        <span class="item-value">₹20.15x1</span>
+                    </div>
+
+                    <button class="item-close-btn" aria-label="Remove item">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="subtotal">
+            <p class="subtotal-text">Subtotal:</p>
+            <data class="subtotal-value" value="215.14">₹215.14</data>
+        </div>
+
+        <a href="./wishlist.html" class="panel-btn">View Wishlist</a>
+
+    </div>
+
+    <div class="side-panel" data-side-panel="cart">
+
+        <button class="panel-close-btn" aria-label="Close cart" data-panel-btn="cart">
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <ul class="panel-list">
+
+            <li class="panel-item">
+                <a href="./product-details.html" class="panel-card">
+
+                    <figure class="item-banner">
+                        <img src="./assets/images/product-small-1.jpg" width="46" height="46" loading="lazy" alt="Bright Side Vegetarian">
+                    </figure>
+
+                    <div>
+                        <p class="item-title">Bright Side Vegetarian</p>
+                        <span class="item-value">₹20.15x1</span>
+                    </div>
+
+                    <button class="item-close-btn" aria-label="Remove item">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </a>
+            </li>
+
+            <li class="panel-item">
+                <a href="./product-details.html" class="panel-card">
+
+                    <figure class="item-banner">
+                        <img src="./assets/images/product-small-2.jpg" width="46" height="46" loading="lazy" alt="Eco Vegetable">
+                    </figure>
+
+                    <div>
+                        <p class="item-title">Eco Vegetable</p>
+                        <span class="item-value">₹13.25x2</span>
+                    </div>
+
+                    <button class="item-close-btn" aria-label="Remove item">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="subtotal">
+            <p class="subtotal-text">Subtotal:</p>
+            <data class="subtotal-value" value="215.14">₹215.14</data>
+        </div>
+
+        <a href="./cart.html" class="panel-btn">View Cart</a>
+
+    </div>
+
+</aside>
+
+
+
+
+
+
+<main>
+  <article>
+
+      <!-- 
+          - Hero Section
+      -->
+      <section class="hero">
+          <div class="container">
+
+              <div class="hero-content">
+
+                  <p class="hero-subtitle">25% off all items.</p>
+
+                  <h2 class="h1 hero-title">
+                      Fresh <span class="span">Vegetables</span> in a  <span class="span">Superfast Express.</span>
+                  </h2>
+
+                  <p class="hero-text">
+                      It has stood the test of time, surviving not only five centuries but also many changes.
+                  </p>
+
+                  <a href="./shop.html" class="btn btn-primary">
+                      <span class="span">Shop Now</span>
+                      <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                  <img src="./assets/images/hero-banner.png" width="603" height="634" loading="lazy" alt="Vegetables"
+                      class="w-100">
+              </figure>
+
+          </div>
+      </section>
+
+      <!-- 
+          - Services Section
+      -->
+      <section class="section service">
+          <div class="container">
+
+              <ul class="service-list">
+
+                  <li class="service-item">
+                      <div class="item-icon">
+                          <img src="./assets/images/service-icon-1.png" width="40" height="40" loading="lazy" alt="Truck icon">
+                      </div>
+
+                      <h3 class="h3 item-title">Free Delivery</h3>
+                  </li>
+
+                  <li class="service-item">
+                      <div class="item-icon">
+                          <img src="./assets/images/service-icon-2.png" width="40" height="40" loading="lazy" alt="Payment card icon">
+                      </div>
+
+                      <h3 class="h3 item-title">Secure Payment</h3>
+                  </li>
+
+                  <li class="service-item">
+                      <div class="item-icon">
+                          <img src="./assets/images/service-icon-3.png" width="40" height="40" loading="lazy" alt="Helpline icon">
+                      </div>
+
+                      <h3 class="h3 item-title">24/7 Assistance</h3>
+                  </li>
+
+              </ul>
+
+          </div>
+      </section>
+
+      <!-- 
+          - Offers Section
+      -->
+      <section class="section offers">
+          <div class="container">
+
+              <ul class="offers-list has-scrollbar">
+
+                  <li class="offers-item">
+                      <a href="./shop.html" class="offers-card">
+
+                          <figure class="card-banner">
+                              <img src="./assets/images/offer-1.png" width="292" height="230" loading="lazy" alt="Fresh vegetables package"
+                                  class="w-100">
+                          </figure>
+
+                          <div class="card-content">
+                              <p class="card-subtitle">Up To 25% Off</p>
+                              <h3 class="h3 card-title">Fresh vegetable package</h3>
+                              <div class="btn btn-primary">Shop Now</div>
+                          </div>
+
+                      </a>
+                  </li>
+
+                  <li class="offers-item">
+                      <a href="./shop.html" class="offers-card">
+
+                          <figure class="card-banner">
+                              <img src="./assets/images/offer-2.png" width="336" height="244" loading="lazy" alt="Healthy & fresh beef"
+                                  class="w-100">
+                          </figure>
+
+                          <div class="card-content">
+                              <p class="card-subtitle">Up To 25% Off</p>
+                              <h3 class="h3 card-title">Healthy & fresh beef</h3>
+                              <div class="btn btn-primary">Shop Now</div>
+                          </div>
+
+                      </a>
+                  </li>
+
+              </ul>
+
+          </div>
+      </section>
+
+      
+  </article>
+</main>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+      <section class="section product">
+        <div class="container">
+    
+            <p class="section-subtitle"> -- Organic Products --</p>
+    
+            <h2 class="h2 section-title">All Organic Products</h2>
+    
+            <ul class="filter-list">
+    
+                <li>
+                    <button class="filter-btn active">
+                        <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+                        <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+                        <p class="filter-text">Fresh Vegetables</p>
+                    </button>
+                </li>
+    
+                <li>
+                    <button class="filter-btn">
+                        <img src="./assets/images/filter-2.png" width="20" alt="" class="default">
+                        <img src="./assets/images/filter-2-active.png" width="20" alt="" class="color">
+                        <p class="filter-text">Fish & Meat</p>
+                    </button>
+                </li>
+    
+                <li>
+                    <button class="filter-btn">
+                        <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
+                        <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
+                        <p class="filter-text">Healthy Fruit</p>
+                    </button>
+                </li>
+    
+                <li>
+                    <button class="filter-btn">
+                        <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+                        <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+                        <p class="filter-text">Dairy Products</p>
+                    </button>
+                </li>
+    
+            </ul>
+    
+            <ul class="grid-list">
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-1.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Fresh Orangey</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-2.png" width="189" height="189" loading="lazy" alt="Key Lime">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Key Lime</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-3.png" width="189" height="189" loading="lazy" alt="Fresh Watermelon">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Fresh Watermelon</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-4.png" width="189" height="189" loading="lazy" alt="Visual Matches">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Visual Matches</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-5.png" width="189" height="189" loading="lazy" alt="Pomegranate Fruit">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Pomegranate Fruit</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-6.png" width="189" height="189" loading="lazy" alt="Red Onion">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Red Onion</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-7.png" width="189" height="189" loading="lazy" alt="Broccoli">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Broccoli</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="product-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/product-8.png" width="189" height="189" loading="lazy" alt="Spinach">
+                            <div class="btn-wrapper">
+                                <button class="product-btn" aria-label="Add to Wishlist">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <div class="tooltip">Add to Wishlist</div>
+                                </button>
+                                <button class="product-btn" aria-label="Quick View">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                    <div class="tooltip">Quick View</div>
+                                </button>
+                            </div>
+                        </figure>
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="./product-details.html">Spinach</a>
+                        </h3>
+                        <div class="price-wrapper">
+                            <del class="del">₹75.00</del>
+                            <data class="price" value="85.00">₹85.00</data>
+                        </div>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </li>
+    
+            </ul>
+    
+        </div>
+    </section>
+    
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <p class="section-subtitle">Summer Offer</p>
+
+          <h2 class="h2 section-title">Up To 50% Off All Product.</h2>
+
+          <p class="cta-text">
+            It has survived not only five centuries also leaped.
+          </p>
+
+          <a href="./shop.html" class="btn btn-primary">
+            <span>Shop Now</span>
+
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOP PRODUCT
+      -->
+
+      <section class="section top-product">
+        <div class="container">
+
+          <p class="section-subtitle"> -- Organic Food --</p>
+
+          <h2 class="h2 section-title">Trendy Products</h2>
+
+          <ul class="top-product-list grid-list">
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-1.png" width="100" height="100" loading="lazy"
+                    alt="Fresh Orangey">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-2.png" width="100" height="100" loading="lazy" alt="key Lime">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">key Lime</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-3.png" width="100" height="100" loading="lazy"
+                    alt="Fresh Watermelon">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Watermelon</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-4.png" width="100" height="100" loading="lazy" alt="Stobery">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Stobery</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-5.png" width="100" height="100" loading="lazy"
+                    alt="Pomagranate Fruit">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Pomagranate Fruit</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-6.png" width="100" height="100" loading="lazy"
+                    alt="Lens Results Broccoli">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Lens Results Broccoli</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-7.png" width="100" height="100" loading="lazy"
+                    alt="Lens Results Spinach">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Lens Results Spinach</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-8.png" width="100" height="100" loading="lazy"
+                    alt="Lorigun Artificial">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Lorigun Artificial</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="top-product-item">
+              <div class="product-card top-product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/top-product-9.png" width="100" height="100" loading="lazy"
+                    alt="Leaf lettuce">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Leaf lettuce</a>
+                  </h3>
+
+                  <div class="price-wrapper">
+                    <del class="del">₹75.00</del>
+
+                    <data class="price" value="85.00">₹85.00</data>
+                  </div>
+
+                  <button class="btn btn-primary">Add to Cart</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+
+          <p class="section-subtitle"> -- Organic Food --</p>
+
+          <h2 class="h2 section-title">Trusted Partners</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-1.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-2.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-3.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-4.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-5.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-6.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testimonials">
+        <div class="container">
+
+          <h2 class="h2 section-title">Big Star Celebrities</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="card-header">
+
+                  <img src="./assets/images/quote-left.png" width="25" height="25" aria-hidden="true" alt="">
+
+                  <img src="./assets/images/ntr.jpg" width="90" height="90" loading="lazy"
+                    alt="Willow Peralta" class="card-avatar">
+
+                  <img src="./assets/images/quote-right.png" width="25" height="25" aria-hidden="true" alt="">
+
+                </div>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <blockquote class="card-text">
+                  An unparalleled journey of luxury and innovation
+                </blockquote>
+
+                <h3 class="card-title">Jr. NTR</h3>
+
+                <p class="card-subtitle">Young Tiger, Actor</p>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="card-header">
+
+                  <img src="./assets/images/quote-left.png" width="25" height="25" aria-hidden="true" alt="">
+
+                  <img src="./assets/images/rc.jpg" width="90" height="90" loading="lazy"
+                    alt="Pamelia Hamrick" class="card-avatar">
+
+                  <img src="./assets/images/quote-right.png" width="25" height="25" aria-hidden="true" alt="">
+
+                </div>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <blockquote class="card-text">
+                  From exceptional service to top-quality products, this brand knows how to make every customer feel like a star
+                </blockquote>
+
+                <h3 class="card-title">Ram Charan</h3>
+
+                <p class="card-subtitle">Global Star, Actor</p>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="card-header">
+
+                  <img src="./assets/images/quote-left.png" width="25" height="25" aria-hidden="true" alt="">
+
+                  <img src="./assets/images/pr.jpg" width="90" height="90" loading="lazy"
+                    alt="Novella Gerber" class="card-avatar">
+
+                  <img src="./assets/images/quote-right.png" width="25" height="25" aria-hidden="true" alt="">
+
+                </div>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <blockquote class="card-text">
+                  An outstanding experience that exceeded all expectations—this brand truly sets the standard for excellence
+                </blockquote>
+
+                <h3 class="card-title">Prabhas</h3>
+
+                <p class="card-subtitle">Rebal Star, Actor</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <h2 class="h2 section-title">Sign Up To Newsletter & Get <span class="span">20% Off.</span></h2>
+
+            <form action="" class="newsletter-form">
+
+              <input type="email" name="email" placeholder="Enter your email" required class="input-email">
+
+              <button type="submit" class="btn btn-primary">
+                <span>Sign Up</span>
+
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="./index.html" class="logo">Veggie<span class="span">Xpress</span></a>
+
+          <p class="footer-text">
+            Most Prmuim Level Of Vegetables, Fruits & Meat
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-skype"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="./about.html" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="./shop.html" class="footer-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="./contact.html" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="contact-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="contact-link">
+              #7, Sri Vaikunta Vasam, KR Puram, Bengaluru
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="contact-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+1800123456789" class="contact-link">+91 99000 00000</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="contact-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:info@veggiexpress.com">info@veggiexpress.com</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Express</p>
+
+          <p class="newsletter-text">
+            Good To Go!
+          </p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email" placeholder="Email Address *" required class="footer-input">
+
+            <button type="submit" class="footer-form-btn" aria-label="Submit">
+              <ion-icon name="mail-outline"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">Royal King ISK</a>. All Rights Reserved.
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term and Service</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" aria-label="Back to Top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

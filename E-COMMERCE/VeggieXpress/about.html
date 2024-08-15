@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <style>
+    /* Ensure the body and html take full height */
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Container to handle layout and spacing */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Adjust the height for sections to fit screen size */
+    .about, .footer {
+      padding: 20px;
+    }
+
+    /* Ensure the footer sticks to the bottom */
+    .footer {
+      background: #f8f9fa;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header" data-header>
+    <div class="nav-wrapper">
+      <div class="container">
+        <h1 class="h1">
+          <a href="./index.html" class="logo">Veggie<span class="span">Xpress</span></a>
+        </h1>
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <nav class="navbar" data-navbar>
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <ul class="navbar-list">
+            <li><a href="./index.html" class="navbar-link">Home</a></li>
+            <li><a href="./about.html" class="navbar-link">About</a></li>
+            <li><a href="./shop.html" class="navbar-link">Shop</a></li>
+            <li><a href="./contact.html" class="navbar-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-action">
+          <div class="search-wrapper" data-search-wrapper>
+            <button class="header-action-btn" aria-label="Toggle search" data-search-btn>
+              <ion-icon name="search-outline" class="search-icon"></ion-icon>
+              <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            </button>
+            <div class="input-wrapper">
+              <input type="search" name="search" placeholder="Search here" class="search-input">
+              <button class="search-submit" aria-label="Submit search">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <button class="header-action-btn" aria-label="Open wishlist" data-panel-btn="wishlist">
+            <ion-icon name="heart-outline"></ion-icon>
+            <data class="btn-badge" value="3">03</data>
+          </button>
+          <button class="header-action-btn" aria-label="Open shopping cart" data-panel-btn="cart">
+            <ion-icon name="basket-outline"></ion-icon>
+            <data class="btn-badge" value="2">02</data>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside (Wishlist and Cart) -->
+  <aside class="aside">
+    <div class="side-panel" data-side-panel="wishlist">
+      <button class="panel-close-btn" aria-label="Close wishlist" data-panel-btn="wishlist">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <ul class="panel-list">
+        <!-- Wishlist items here -->
+      </ul>
+      <div class="subtotal">
+        <p class="subtotal-text">Subtotal:</p>
+        <data class="subtotal-value" value="215.14">₹215.14</data>
+      </div>
+      <a href="./wishlist.html" class="panel-btn">View Wishlist</a>
+    </div>
+    <div class="side-panel" data-side-panel="cart">
+      <button class="panel-close-btn" aria-label="Close cart" data-panel-btn="cart">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <ul class="panel-list">
+        <!-- Cart items here -->
+      </ul>
+      <div class="subtotal">
+        <p class="subtotal-text">Subtotal:</p>
+        <data class="subtotal-value" value="215.14">₹215.14</data>
+      </div>
+      <a href="./cart.html" class="panel-btn">View Cart</a>
+    </div>
+  </aside>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>---------------------</p>
+      <p><strong>Welcome to VeggieXpress!</strong></p>
+      <p>At VeggieXpress, our mission is to bring you the freshest, most delicious vegetarian meals right to your table. Our journey began with a simple idea: to create a place where healthy eating meets convenience without compromising on taste.</p>
+      <p>---------------------</p>
+      <p><strong>Who We Are</strong></p>
+      <p>We are a team of passionate food enthusiasts dedicated to providing you with high-quality, plant-based dishes made from locally sourced ingredients. Our chefs combine traditional recipes with innovative techniques to deliver meals that are not only nutritious but also full of flavor.</p>
+      <p>---------------------</p>
+      <p><strong>What Sets Us Apart</strong></p>
+      <ul>
+        <li><strong>Fresh Ingredients:</strong> We use only the freshest vegetables, fruits, and spices to ensure every dish is packed with natural goodness.</li>
+        <li><strong>Sustainability:</strong> We are committed to reducing our environmental footprint by using eco-friendly packaging and supporting sustainable farming practices.</li>
+        <li><strong>Customer-Centric Approach:</strong> Your satisfaction is our priority. We value your feedback and continuously strive to improve our offerings based on your preferences.</li>
+      </ul>
+      <p>---------------------</p>
+      <p><strong>Our Story</strong></p>
+      <p>Founded in 2020, VeggieXpress started as a small local eatery with a vision to revolutionize vegetarian dining. Over the years, we have grown into a beloved brand, known for our exceptional service and mouthwatering meals. Our team’s dedication and hard work have been the driving force behind our success.</p>
+      <p>---------------------</p>
+      <p><strong>Join Us on Our Journey</strong></p>
+      <p>We invite you to explore our diverse menu and experience the VeggieXpress difference. Whether you’re a long-time vegetarian or simply looking to incorporate more plant-based meals into your diet, we have something for everyone.</p>
+      <p>Thank you for being a part of our journey. We look forward to serving you!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 VeggieXpress. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
